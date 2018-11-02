@@ -734,7 +734,7 @@
             <text variable="locator"/>
           </if>
           <else-if locator="page" type="article-journal legal_case" match="all">
-            <text variable="locator" prefix=", "/>
+            <text variable="locator" prefix=", p.&#160;"/>
           </else-if>
           <else-if locator="sub-verbo">
             <text variable="locator" quotes="true" prefix=", v° "/>
